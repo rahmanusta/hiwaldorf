@@ -73,18 +73,18 @@ function chinesesubstr($str, $start, $len) {
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> </div>
     <div class="clearfix"></div>
-    <div class="col-lg-4 col-md-4 centerDiv"> <img src="http://www.rhythmicalmassagetherapy.co.uk/siteimages/img_event_6.jpg" width="120" class="imgCircle" alt="">
+    <div class="col-lg-4 col-md-4 centerDiv"> <img src="images/img_event_6.jpg" width="120" class="imgCircle" alt="">
       <h3><?php echo ($lang=="en")?"Rhythmical massage therapy":"韵律按摩疗法"; ?></h3>
       <p><?php echo ($lang=="en")?"What is rhythmical massage therapy and how is it different from classical forms of massage? ...":"根据伊塔韦格曼医生的说法，韵律按摩疗法是一种经过人智学观点扩展的古典按摩形式 ..." ?> </p>
       <p><a class="btn btn-default" href="rhythmical-massage-therapy.php" role="button"><?php echo TTL_DETAIL; ?></a></p>
     </div>
-    <div class="col-lg-4 col-md-4 centerDiv"> <img src="http://www.rhythmicalmassagetherapy.co.uk/siteimages/img_event_5.jpg" width="120" class="imgCircle" alt="">
+    <div class="col-lg-4 col-md-4 centerDiv"> <img src="images/img_event_5.jpg" width="120" class="imgCircle" alt="">
       <h3> <?php echo ($lang=="en")?'Events':'活动分享';?></h3>
       <p><?php echo ($lang=="en")?'Plant Observation, Singing and Painting Workshop"
 ':'“植物观察与唱歌”工作坊' ?> </p>
       <p><a class="btn btn-default" href="http://mp.weixin.qq.com/s?__biz=MjM5NjAwNTI3Mw==&amp;mid=213870666&amp;idx=1&amp;sn=323e456747115118d0b54e511bf7785e&amp;scene=5&amp;srcid=0904pi267xzfUeNhBkzqaw0x#rd" role="button" target="_blank"><?php echo TTL_DETAIL; ?></a></p>
     </div>
-    <div class="col-lg-4 col-md-4 centerDiv"> <img src="http://www.rhythmicalmassagetherapy.co.uk/siteimages/img_event_7.jpg" width="120" class="imgCircle" alt="">
+    <div class="col-lg-4 col-md-4 centerDiv"> <img src="images/img_event_7.jpg" width="120" class="imgCircle" alt="">
       <h3><?php echo ($lang=="en")?"Latest Articles":"相关文献";; ?></h3>
       <p><?php echo ($lang=="en")?"The Path to Freedom and Love and their Significance in World Events ...":"通向自由和爱的道路以及它们在世界事件中的重要性..." ?> </p>
       <p><a class="btn btn-default" href="articles.php" role="button"><?php echo TTL_MOREARTICLES; ?></a></p>
@@ -97,7 +97,7 @@ function chinesesubstr($str, $start, $len) {
     <?php include 'include/footer.php'; ?>
   </footer>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="assets/js/docs.min.js"></script> 
 <script src="js/myjs.js"></script>
