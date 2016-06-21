@@ -90,6 +90,6 @@ define("TEXT_THANK", '感谢你的邮件。我们会尽快联系你.');
  footer
 **********************************/
 define("TOTOP", '页首');
-define("COPYRIGHT", '&copy; 2015 Rhythmical Massage Therapy China');
+define("COPYRIGHT", '&copy; 2015-2016 Rhythmical Massage Therapy China');
 
 ?>
