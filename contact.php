@@ -172,7 +172,7 @@ else
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> 
+<script src="js/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="assets/js/docs.min.js"></script> 
 <script src="js/jquery.validate.js" type="text/javascript"></script> 
