@@ -74,5 +74,5 @@ define("TEXT_THANK", 'Thank you for your email. We will contact you shortly.');
  footer
 **********************************/
 define("TOTOP", 'Top');
-define("COPYRIGHT", '&copy; 2015 Rhythmical Massage Therapy China');
+define("COPYRIGHT", '&copy; 2015-2016 Rhythmical Massage Therapy China');
 ?>
