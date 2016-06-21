@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#thank {
+	line-height:1.2;
+	min-height:300px;
+	font-size:24px;
+	}
+
+#form p, #thank p{
+	text-align:center;
+	margin:10px 0;
+	font-size:20px;}
+	
+.contactForm li{
+	width:100%;
+	margin-bottom:10px;
+	position:relative;
+   
+	}
+	
+.labelForm{
+	float:left;
+	text-align:right;
+	letter-spacing:0px;
+	display:block;
+	width:30%;
+	
+	}
+
+input[type=text], input[type=submit], textarea{
+	min-width:200px;
+	margin-left:5%;
+	width:65%;
+	background:#fff;
+	padding:5px 5px;
+	border: 1px solid  #998F7A;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	outline: 0;
+	color: #000;
+	font-size:14px;
+}
+textarea{height:100px;}
+input.register{
+	color: #FFF;
+background: none;
+color: #fff;
+background-color: rgba(0, 0, 0, 0.7);
+border-color: #998F7A;
+    margin-top:20px;
+	height:40px;
+}
+	
+	
+.radioRow{
+	width:65%;
+	height:20px;
+	float:right;
+    margin-left:5%;
+}
+.radio, .checkbox {
+display: inline-block; */
+min-height: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 20px;
+}
+.radioRow li{
+	width:66px;
+	float:left;
+}
+
+@media (max-width:480px) {
+.labelForm{
+display:block;
+width: 100% !important;
+text-align: left;
+}
+
+.col-xs-12 {
+padding: 10px 0 !important;
+}
+input[type=text], input[type=submit], textarea {
+width: 100%;
+margin:0;
+}
+.radioRow {
+width: 100%;
+}
+}

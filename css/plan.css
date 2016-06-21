@@ -1,0 +1,439 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#floor_link
+{
+	margin-left : 23px;
+}
+.row{
+	margin:0;
+	background-color : rgba(255,255,255,0.4);
+	padding:20px 0 !important;
+}
+
+#floor_link .floor_1
+{
+	color: #6f6f6f;
+	font-family: 'josefin_sansbold';
+	font-size: 18px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#floor_link a
+{
+	font-family: 'josefin_sansbold';
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-bottom: 20px;
+	display: block;
+}
+/*<li class="studio"> studio </li>
+      <li class="br1">1 bedroom</li>
+      <li class="br1plus">1 bedroom plus</li>
+      <li class="br1_loggia">1 bedroom - Loggia</li>
+      <li class="br2_cv">2 bedrooms - View downtown</li>
+      <li class="br2_montagne">2 bedrooms - View moutain</li>
+      <li class="br2_condoplex">2 bedrooms - condoplex</li>
+      <li class="br2_loggia">2 bedrooms - Loggia</li>
+      <li class="br2_master">2 bedrooms - Master</li>
+      <li class="br2_tupper">2 bedrooms - Tupper </li>
+      <li class="br3">3 bedrooms</li>
+      <li class="penthouse">Penthouse</li>
+      <li class="sold">Sold</li>*/
+	  
+ul#legend li{
+	min-height:20px;
+	padding-left:15px;
+	border-width:0 0 0 20px;
+	border-style:solid;
+	margin-bottom:4px;}
+
+
+li.studio{ border-color:#9ED8B2;}
+li.br1{ border-color:#E2CFE0;}
+li.br1_plus{ border-color:#879CF4;}
+li.br2{ border-color:#86D1D9;}
+li.br2_condoplex{ border-color:#E7EDA2;}
+li.br3{ border-color:#F9CAA7;}
+li.penthouse{ border-color:#C997FC;}
+li.sold {border-color:#444;}
+
+.active_roll_over #floor_link a:hover
+{
+	color:#1a8fce;
+}
+
+.active_roll_over #floor_link a.no_roll_over:hover
+{
+	color: #FFFFFF;
+}
+
+#building
+{
+	float: left;
+}
+
+#canvas_building
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#canvas_units_under,
+#canvas_units_over
+{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width:100%;
+	padding: 0 15px;
+}
+	
+#right_section
+{
+	background-color : #000000;
+	float: right;
+	width: 24%;
+	height: 100%;
+}
+
+#right_section .right_section_padding
+{
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-top: 32px;
+}
+
+.option_box
+{
+	margin-bottom: 25px;
+}
+
+.option_box.last
+{
+	margin-bottom : 0px;
+}
+
+.option_box .box_number
+{
+	background-color: #1a8fce;
+	color: #000000;
+	font-family: 'josefin_sansbold';
+	font-size: 18px;
+	float: left;
+	margin-right: 10px;
+	padding: 0px 6px 2px 8px;
+}
+
+.option_box .box_number.disable
+{
+	background-color: #646464;
+}
+
+.option_box .box_number.label_on_two_lines
+{
+	margin-top: 6px;
+}
+
+.option_box .box_number.label_on_three_lines
+{
+	margin-top: 15px;
+}
+
+.option_box .box_label
+{
+	float: left;
+}
+
+.option_box .box_label,
+.option_box .box_label a
+{
+	color: #1a8fce;
+	font-family: 'josefin_sansbold';
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.option_box .box_label.disable,
+.option_box .box_label.disable a
+{
+	color: #646464;
+}
+
+.option_box .box_label.label_one_line
+{
+	margin-top: 3px;
+}
+
+/* ------------------------------------- FLOOR PAGE ------------------------------------- */
+#floor
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	display:block;
+}
+#floor img
+{
+	width: 100%;
+	height: auto;
+}
+
+#floor_number_floor
+{
+	color: #FFFFFF;
+	font-family: 'josefin_sansbold';
+	font-size: 22px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: 2px solid #FFFFFF;
+	border-radius: 12px;
+	padding: 8px 20px 8px 20px;
+	text-align: center;
+	position: relative;
+	width:80%;
+}
+
+a:hover #floor_number_floor
+{
+	background-color:#f60
+	
+}
+
+#floor_number_floor .text_container_open_section
+{
+	background-image: url('../media/images/layout/text-container-open-section.jpg');
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 8px;
+	position: absolute;
+	left: -7px;
+	z-index: 5;
+	top: 50%;
+	margin-top: -8px;
+}
+/* ------------------------------------- END FLOOR PAGE ------------------------------------- */
+
+/* ------------------------------------- UNIT PAGE ------------------------------------- */
+#floor_and_unit_number
+{
+	color: #FFFFFF;
+	font-family: 'josefin_sansbold';
+	font-size: 22px;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	border: 2px solid #FFFFFF;
+	border-radius: 12px;
+	padding: 8px 20px 8px 20px;
+	text-align: center;
+	position: relative;
+	width: 130px;
+	margin-left: 5px;
+}
+
+#floor_and_unit_number .text_container_open_section
+{
+	background-image: url('../media/images/layout/text-container-open-section.jpg');
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 8px;
+	position: absolute;
+	left: -7px;
+	z-index: 5;
+	top: 50%;
+	margin-top: -8px;
+}
+
+#floor_number
+{
+	color: #FFFFFF;
+	font-family: 'josefin_sansbold';
+	font-size: 24px;
+	margin-bottom: 4px;
+}
+
+#unit_number
+{
+	color: #FFFFFF;
+	font-family: 'josefin_sansbold';
+	font-size: 20px;
+}
+
+.details_item
+{
+	margin-bottom : 40px;
+}
+
+.details_item.last
+{
+	margin-bottom : 25px;
+}
+
+.details_text
+{
+	padding-left : 20px;
+}
+
+.details_text,
+.details_text a
+{
+	color: #FFFFFF;
+	font-family: 'josefin_sansbold';
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.conversion_note
+{
+	color: #FFFFFF;
+	font-family: 'josefin_sansbold';
+	font-size: 12px;
+	margin-left: 48px;
+}
+
+.details_item a.pdf_image_link
+{
+	background-image: url('../media/images/plans/download-pdf.png');
+	background-repeat: no-repeat;
+	display: block;
+	height: 19px;
+	line-height: 19px;
+	padding-left: 48px;
+	color: #FFFFFF;
+	font-family: 'josefin_sansbold';
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.active_roll_over .details_item a.pdf_image_link:hover
+{
+	background-position : 0 -19px;
+	color: #1a8fce;
+}
+/* ------------------------------------- END UNIT PAGE ------------------------------------- */
+
+/* ------------------------------------- UNITS ------------------------------------- */
+#units
+{
+	
+}
+
+#units .unit
+{
+	margin-bottom : 20px;
+}
+
+#units .number
+{
+	float: left;
+	width: 65px;
+}
+
+#units .number,
+#units .number a
+{
+	color: #ffffff;
+	font-family: 'josefin_sansbold';
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.active_roll_over #units .number a:hover
+{
+	
+}
+
+#units .bedroom
+{
+	float: left;
+}
+
+#units .bedroom,
+#units .bedroom a
+{
+	color: #ffffff;
+	font-family: 'josefin_sansbold';
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.active_roll_over #units .bedroom a:hover
+{
+	
+}
+/* ------------------------------------- END UNITS ------------------------------------- */
+/* ------------------------------------- LEGEND ------------------------------------- */
+#legend
+{
+	margin-top: 30px;
+}
+
+.legend_item
+{
+	margin-bottom:15px;
+}
+
+.legend_item.last
+{
+	margin-bottom:0px;
+}
+
+.legend_color
+{
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin-top: 2px;
+}
+
+.legend_color.studio
+{
+	background-color : #bce9f4;
+}
+
+.legend_color.one_bedroom
+{
+	background-color : #5fcfe8;
+}
+
+.legend_color.two_bedrooms
+{
+	background-color : #1a8fce;
+}
+
+.legend_color.three_bedrooms
+{
+	background-color : #115d86;
+}
+
+.legend_color.sold
+{
+	background-color : #e8aa20;
+}
+
+.legend_color.not_available
+{
+	background-color : #cccccc;
+}
+
+.legend_bedroom_number
+{
+	color: #ffffff;
+	font-family: 'josefin_sansbold';
+	font-size: 16px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+/* ------------------------------------- END LEGEND ------------------------------------- */
+
+.button{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0; cursor: pointer;}
+	
+.button:hover{
+	fill:#03C;
+	opacity:0.5;}
