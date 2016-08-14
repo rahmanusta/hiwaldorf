@@ -3,4 +3,6 @@
 
 在本页面发布每个版本修订的具体内容,以供参照。
 
-== http://weidian.com/item.html?itemID=1925017130[彩蝶整理版 ~1.0] (2016年8月12日)
+---
+
+=== http://weidian.com/item.html?itemID=1925017130[彩蝶整理版 ~1.0] (2016年8月12日)

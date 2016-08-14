@@ -1,1 +1,8 @@
 == 前言
+
+[preface]
+`汉民族创世史诗`
+
+image::images/logo.png[caption="", title="",width=270px]
+
+=== 
