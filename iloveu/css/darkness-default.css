@@ -406,7 +406,7 @@ p{margin-bottom:1.25rem}
     .hide-for-print{display:none!important}
     .show-for-print{display:inherit!important}}
     /*名下定制部分*/
-    .poemsbody{
+    #content .poemsbody{
         columns:100px 2;
         -webkit-columns:100px 2; /* Safari and Chrome */
         -moz-columns:100px 2; /* Firefox */
