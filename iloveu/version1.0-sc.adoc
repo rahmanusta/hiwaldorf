@@ -8,8 +8,15 @@
 :lang: zh-CN
 :toc: left
 :toclevels: 2
+:toc-title: 目录
 :numbered:
-:keywords: 
+:keywords: 黑暗传, 汉族, 创世史诗, 彩蝶计划
+:stylesheet: css/darkness.css
+:description: 汉民族的创世史诗
+
+[abstract]
+
+{description}
 
 include::foreword.adoc[]
 

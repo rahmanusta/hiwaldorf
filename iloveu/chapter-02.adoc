@@ -1,3 +1,4 @@
+[[chapter02-section, chapter02]]
 == 后天（天地出现）
 
 ++++

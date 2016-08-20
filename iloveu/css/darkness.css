@@ -1,6 +1,4 @@
-/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
-/* Remove comment around @import statement below when using as a custom stylesheet */
-/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
+/* 黑暗传默认css文件*/
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
@@ -405,10 +403,10 @@ p{margin-bottom:1.25rem}
     .print-only{display:block!important}
     .hide-for-print{display:none!important}
     .show-for-print{display:inherit!important}}
-    /*名下定制部分*/
-    #content .poemsbody{
-        columns:100px 2;
-        -webkit-columns:100px 2; /* Safari and Chrome */
-        -moz-columns:100px 2; /* Firefox */
-        text-align: center;
-    }
+/* 黑暗传自定义css文件 | 名下 */
+.poemsbody{
+    columns:100px 2;
+    -webkit-columns:100px 2; /* Safari and Chrome */
+    -moz-columns:100px 2; /* Firefox */
+    text-align: center;
+}
