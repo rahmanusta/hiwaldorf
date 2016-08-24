@@ -1,7 +1,7 @@
 = 《黑暗传》彩蝶整理版
 :author:    彩蝶计划&名下 
 :email:     caidie@caidie.org
-:revdate:   2016年8月24日
+:revdate:   2016年8月25日
 :revnumber: 1.0.0
 :doctype: book
 :encoding: utf-8

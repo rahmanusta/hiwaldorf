@@ -6,7 +6,7 @@
 
 ---
 
-=== 彩蝶整理版1.0 (http://weidian.com/item.html?itemID=1925017130[2016年8月24日])
+=== 彩蝶整理版1.0 (http://weidian.com/item.html?itemID=1925017130[2016年8月25日])
 
 - [*] 修改日志:
 * 修改明显别字、误表达15处;
