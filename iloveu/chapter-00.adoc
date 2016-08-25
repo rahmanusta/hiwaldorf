@@ -2,9 +2,11 @@
 == 歌引
 :hardbreaks:
 
+ifdef::backend-html5[]
 ++++
 <div class="poemsbody">
 ++++
+endif::[]
 
 梦里听见丧鼓响，
 一个轱辘翻下床，
@@ -161,6 +163,8 @@
 夜深人静最好唱，
 好为亲朋提精神。
 
+ifdef::backend-html5[]
 ++++
 </div>
 ++++
+endif::[]

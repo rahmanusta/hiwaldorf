@@ -2,9 +2,11 @@
 == 治世（社会形成）
 :hardbreaks:
 
+ifdef::backend-html5[]
 ++++
 <div class="poemsbody">
 ++++
+endif::[]
 
 === 三皇
 
@@ -924,6 +926,8 @@
 至今江山胜迹在，
 千秋万代颂英灵。
 
+ifdef::backend-html5[]
 ++++
 </div>
 ++++
+endif::[]
